@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=.0" />
+    <title>tic tac toe</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="game-data">
+          <div class="flex circle">
+            <img src="./assets/circle.png" alt="circle" />
+            <p class="circle-win">0 Wins</p>
+          </div>
+          <div class="flex cross">
+            <img src="./assets/close.png" alt="cross" />
+            <p class="cross-win">0 Wins</p>
+          </div>
+          <div class="flex draw">
+            <img src="./assets/human-rights.png" alt="draw" />
+            <p class="draw-hogya">0 Draws</p>
+          </div>
+        </div>
+        <div class="game">
+          <div class="gt">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+          </div>
+          <span class="hr"></span>
+          <span class="vl"></span>
+          <div class="gc">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+          </div>
+          <span class="hr"></span>
+          <span class="right-vl vl"></span>
+          <div class="gb">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+          </div>
+        </div>
+        <div class="flex footer">
+          <button class="flex reset">
+            <img src="./assets/undo-arrow.png" alt="reset" />
+          </button>
+          <div class="flex player">
+            <p class="name">Player 1</p>
+          </div>
+          <button class="flex start">
+            <img src="./assets/play-button.png" alt="play" />
+          </button>
+        </div>
+        <div class="hide msg-container">
+          <p class="msg"></p>
+        </div>
+      </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
